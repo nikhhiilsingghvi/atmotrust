@@ -9,7 +9,7 @@ function BustEventsPanel({ events, onEventClick }) {
 
   return (
     <div className="bust-events-panel">
-      <h2>⚡ Historical Forecast Busts</h2>
+      <h2>Historical Forecast Busts</h2>
       <p className="panel-desc">
         Curated examples of real NWP forecast failures over India, used to demonstrate AtmoTrust's
         ability to flag high-risk situations in advance. These events were all cases where GFS

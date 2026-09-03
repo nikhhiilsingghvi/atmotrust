@@ -93,19 +93,19 @@ function App() {
           className={`tab-btn ${activeTab === 'forecast' ? 'active' : ''}`}
           onClick={() => setActiveTab('forecast')}
         >
-          <span className="tab-icon">🗺</span> Forecast Map
+          <span className="tab-icon" aria-hidden="true">MAP</span> Forecast Map
         </button>
         <button
           className={`tab-btn ${activeTab === 'events' ? 'active' : ''}`}
           onClick={() => setActiveTab('events')}
         >
-          <span className="tab-icon">⚡</span> Historical Busts
+          <span className="tab-icon" aria-hidden="true">LOG</span> Historical Busts
         </button>
         <button
           className={`tab-btn ${activeTab === 'model' ? 'active' : ''}`}
           onClick={() => setActiveTab('model')}
         >
-          <span className="tab-icon">🤖</span> Model Info
+          <span className="tab-icon" aria-hidden="true">AI</span> Model Info
         </button>
       </div>
 

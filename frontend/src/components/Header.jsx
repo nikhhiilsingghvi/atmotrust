@@ -2,7 +2,7 @@ function Header({ modelLoaded }) {
   return (
     <header className="app-header">
       <div className="brand">
-        <div className="brand-logo" aria-hidden="true">🌩</div>
+        <div className="brand-logo" aria-hidden="true" />
         <div className="brand-text">
           <h1>ATMOTRUST</h1>
           <p>AI Forecast Bust Detection · SIH26079</p>
