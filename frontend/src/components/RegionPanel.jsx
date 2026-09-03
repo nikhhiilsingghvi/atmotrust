@@ -30,7 +30,7 @@ function RegionPanel({ region, forecastDate, leadDay, apiState, mapNotice }) {
 
       {mapNotice && (
         <div className="map-unavailable-banner">
-          ⚠ Forecast data unavailable for {mapNotice}. Select from the region dropdown instead.
+          Forecast data unavailable for {mapNotice}. Select another region from the controls.
         </div>
       )}
 
@@ -45,7 +45,7 @@ function RegionPanel({ region, forecastDate, leadDay, apiState, mapNotice }) {
 
       {apiState.status === 'error' && (
         <div className="panel-status panel-status-error">
-          ⚠ Backend unreachable. Start the FastAPI server at port 8000.
+          Backend unreachable. Check the forecast service connection.
         </div>
       )}
 

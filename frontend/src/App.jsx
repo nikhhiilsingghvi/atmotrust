@@ -12,7 +12,7 @@ import { getBackendSlugForState } from './data/regionSlugMap'
 const DEFAULT_DATE = new Date().toISOString().slice(0, 10)
 
 function App() {
-  const [forecastDate, setForecastDate] = useState('2023-08-15')
+  const [forecastDate, setForecastDate] = useState(DEFAULT_DATE)
   const [leadDay, setLeadDay] = useState(1)
   const [region, setRegion] = useState('coastal-karnataka')
   const [activeTab, setActiveTab] = useState('forecast') // 'forecast' | 'events' | 'model'

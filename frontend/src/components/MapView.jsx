@@ -134,7 +134,7 @@ function MapView({ onStateClick, mapData, selectedRegion }) {
       )}
       {loadError && (
         <div className="map-overlay-card" style={{ color: 'var(--risk-high)' }}>
-          ⚠ Unable to load boundaries
+          Unable to load boundaries
         </div>
       )}
       {geojson && (
